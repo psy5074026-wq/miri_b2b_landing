@@ -245,15 +245,25 @@ footer a:hover{color:#fff}
 .tip b{color:var(--red-dark)}
 @media(max-width:900px){.detail .grid{grid-template-columns:1fr;gap:32px}.detail-media{position:static}}
 
-/* FAQ */
+/* FAQ — accordion */
 .faq .block-head{margin-bottom:48px}
 .faq-list{max-width:840px;margin:0 auto}
-.faq-item{padding:30px 4px;border-bottom:1px solid var(--line)}
+.faq-item{border-bottom:1px solid var(--line)}
 .faq-item:first-child{border-top:1px solid var(--line)}
-.faq-item h3{font-family:var(--serif);font-size:23px;font-weight:500;letter-spacing:-.01em;margin-bottom:12px;display:flex;gap:12px;align-items:baseline}
-.faq-item h3 .q{color:var(--red);font-weight:600;font-size:18px}
-.faq-item p{color:var(--ink-soft);font-size:16px;max-width:72ch}
-.faq-item p .a{color:var(--red);font-weight:600;font-family:var(--serif);margin-right:4px}
+.faq-q{margin:0}
+.faq-toggle{width:100%;background:none;border:none;cursor:pointer;font-family:var(--serif);font-size:23px;font-weight:500;letter-spacing:-.01em;color:var(--ink);text-align:left;padding:28px 2px;display:flex;gap:12px;align-items:center;transition:color .2s}
+.faq-toggle:hover{color:var(--red)}
+.faq-toggle .q{color:var(--red);font-weight:600;font-size:18px;flex:none}
+.faq-icon{margin-left:auto;flex:none;position:relative;width:20px;height:20px}
+.faq-icon::before,.faq-icon::after{content:"";position:absolute;top:50%;left:50%;background:var(--red);border-radius:2px;transform:translate(-50%,-50%)}
+.faq-icon::before{width:16px;height:2px}
+.faq-icon::after{width:2px;height:16px;transition:transform .35s ease}
+.faq-item.open .faq-icon::after{transform:translate(-50%,-50%) scaleY(0)}
+.faq-a-wrap{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .35s ease,opacity .3s ease}
+.faq-item.open .faq-a-wrap{grid-template-rows:1fr;opacity:1}
+.faq-a{overflow:hidden;min-height:0}
+.faq-a p{color:var(--ink-soft);font-size:16px;max-width:72ch;padding:0 2px 30px}
+.faq-a p .a{color:var(--red);font-weight:600;font-family:var(--serif);margin-right:4px}
 
 /* PAGE HERO (inner pages) */
 .pagehero{background:var(--cream);padding:80px 0 64px;text-align:center;border-bottom:1px solid var(--line)}
