@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miri-b2b-landing.vercel.app/sitemap.xml

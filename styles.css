@@ -245,6 +245,16 @@ footer a:hover{color:#fff}
 .tip b{color:var(--red-dark)}
 @media(max-width:900px){.detail .grid{grid-template-columns:1fr;gap:32px}.detail-media{position:static}}
 
+/* FAQ */
+.faq .block-head{margin-bottom:48px}
+.faq-list{max-width:840px;margin:0 auto}
+.faq-item{padding:30px 4px;border-bottom:1px solid var(--line)}
+.faq-item:first-child{border-top:1px solid var(--line)}
+.faq-item h3{font-family:var(--serif);font-size:23px;font-weight:500;letter-spacing:-.01em;margin-bottom:12px;display:flex;gap:12px;align-items:baseline}
+.faq-item h3 .q{color:var(--red);font-weight:600;font-size:18px}
+.faq-item p{color:var(--ink-soft);font-size:16px;max-width:72ch}
+.faq-item p .a{color:var(--red);font-weight:600;font-family:var(--serif);margin-right:4px}
+
 /* PAGE HERO (inner pages) */
 .pagehero{background:var(--cream);padding:80px 0 64px;text-align:center;border-bottom:1px solid var(--line)}
 .pagehero h1{font-family:var(--serif);font-size:clamp(38px,5vw,66px);font-weight:500;margin-top:12px;letter-spacing:-.01em}

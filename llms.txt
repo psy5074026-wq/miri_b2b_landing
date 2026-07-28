@@ -1,0 +1,23 @@
+# miri by Sol Food — Korean Vegetable Dumplings (U.S. Wholesale & Foodservice)
+
+> miri is the food-specialty brand of Sol Food Co., Ltd., a Korean dumpling (mandu) and udon manufacturer since 1987. HACCP, HALAL and ISO 9001/22000/45001/14001 certified. Now partnering with U.S. importers, distributors, retailers, wholesalers and foodservice operators. Private-label & OEM available.
+
+## Products
+- [Vegetable Dumpling](https://miri-b2b-landing.vercel.app/vegetable-dumpling.html): Plant-based Korean mandu made with tofu and vegetables. 560g. Best seller.
+- [Kimchi Mandu](https://miri-b2b-landing.vercel.app/product-kimchi.html)
+- [Pork Mandu](https://miri-b2b-landing.vercel.app/product-pork.html)
+- [Spicy Chili Mandu](https://miri-b2b-landing.vercel.app/product-spicy.html)
+- [Shrimp Mandu](https://miri-b2b-landing.vercel.app/product-shrimp.html)
+- [Crispy Glass Noodle Mandu](https://miri-b2b-landing.vercel.app/product-glass-noodle.html)
+- [Springy Udon Noodle](https://miri-b2b-landing.vercel.app/product-udon.html)
+- [All Products](https://miri-b2b-landing.vercel.app/products.html)
+
+## Recipes
+- [Crispy Golden Pan Fry](https://miri-b2b-landing.vercel.app/recipe-pan-fry.html) (8 min)
+- [Easy Peasy Air Fry](https://miri-b2b-landing.vercel.app/recipe-air-fry.html) (10 min)
+- [Healthy Steam](https://miri-b2b-landing.vercel.app/recipe-steam.html) (12 min)
+
+## Company
+- [About Sol Food](https://miri-b2b-landing.vercel.app/about.html): Dumpling specialist since 1987, HACCP/HALAL/ISO certified.
+- [Our Factory](https://miri-b2b-landing.vercel.app/factory.html): 8-step process, metal & X-ray detection, certified facility in Okcheon, Korea.
+- [Contact / Wholesale](https://miri-b2b-landing.vercel.app/contact.html): For buyers, distributors and OEM inquiries.
