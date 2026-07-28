@@ -36,54 +36,6 @@
   }
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is it quick and easy to make?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — MIRI dumplings go from freezer to table in minutes. Pan-fry, steam, or air fry — no thawing, no prep, no mess."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it healthy? What's actually inside?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — MIRI is 100% plant-based vegetable dumplings made with tofu, no cholesterol, no meat. Just real vegetables and clean ingredients you can pronounce."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it good for game day or a party?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — MIRI dumplings are a crowd-pleasing appetizer straight from the freezer. Perfect for game day snacks, parties, or any easy get-together."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are they actually crispy, or just another mushy veggie dumpling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — MIRI dumplings are genuinely crispy on the outside, savory on the inside. No more mushy, bland veggie dumplings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What makes it authentically Korean?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes — MIRI dumplings are yachae mandu, Korea's traditional vegetable-filled dumpling, made the way Korean families have made it for generations."
-      }
-    }
-  ]
-}
-</script>
 </head>
 <body>
 
@@ -97,6 +49,7 @@
       <li><a href="vegetable-dumpling.html">Vegetable Dumpling</a></li>
       <li><a href="#recipes">Recipes</a></li>
       <li><a href="factory.html">Our Factory</a></li>
+      <li><a href="faq.html">FAQ</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <a href="contact.html" class="cta-mini">Become a Partner</a>
@@ -180,34 +133,6 @@
 </section>
 
 
-<!-- FAQ -->
-<section class="section faq">
-  <div class="wrap">
-    <div class="center block-head"><div class="eyebrow">FAQ</div><h2 class="section-title">Good to know</h2></div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <h3 class="faq-q"><button type="button" class="faq-toggle" aria-expanded="false"><span class="q">Q.</span>Is it quick and easy to make?<span class="faq-icon" aria-hidden="true"></span></button></h3>
-        <div class="faq-a-wrap"><div class="faq-a"><p><span class="a">A.</span>Yes — MIRI dumplings go from freezer to table in minutes. Pan-fry, steam, or air fry — no thawing, no prep, no mess.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <h3 class="faq-q"><button type="button" class="faq-toggle" aria-expanded="false"><span class="q">Q.</span>Is it healthy? What's actually inside?<span class="faq-icon" aria-hidden="true"></span></button></h3>
-        <div class="faq-a-wrap"><div class="faq-a"><p><span class="a">A.</span>Yes — MIRI is 100% plant-based vegetable dumplings made with tofu, no cholesterol, no meat. Just real vegetables and clean ingredients you can pronounce.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <h3 class="faq-q"><button type="button" class="faq-toggle" aria-expanded="false"><span class="q">Q.</span>Is it good for game day or a party?<span class="faq-icon" aria-hidden="true"></span></button></h3>
-        <div class="faq-a-wrap"><div class="faq-a"><p><span class="a">A.</span>Yes — MIRI dumplings are a crowd-pleasing appetizer straight from the freezer. Perfect for game day snacks, parties, or any easy get-together.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <h3 class="faq-q"><button type="button" class="faq-toggle" aria-expanded="false"><span class="q">Q.</span>Are they actually crispy, or just another mushy veggie dumpling?<span class="faq-icon" aria-hidden="true"></span></button></h3>
-        <div class="faq-a-wrap"><div class="faq-a"><p><span class="a">A.</span>Yes — MIRI dumplings are genuinely crispy on the outside, savory on the inside. No more mushy, bland veggie dumplings.</p></div></div>
-      </div>
-      <div class="faq-item">
-        <h3 class="faq-q"><button type="button" class="faq-toggle" aria-expanded="false"><span class="q">Q.</span>What makes it authentically Korean?<span class="faq-icon" aria-hidden="true"></span></button></h3>
-        <div class="faq-a-wrap"><div class="faq-a"><p><span class="a">A.</span>Yes — MIRI dumplings are yachae mandu, Korea's traditional vegetable-filled dumpling, made the way Korean families have made it for generations.</p></div></div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- FOOTER -->
 <footer>
@@ -227,15 +152,5 @@
   </div>
 </footer>
 
-<script>
-  // FAQ accordion — multiple open allowed, toggles .open on each item
-  document.querySelectorAll('.faq-toggle').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      var item = btn.closest('.faq-item');
-      var open = item.classList.toggle('open');
-      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  });
-</script>
 </body>
 </html>

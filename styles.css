@@ -245,25 +245,16 @@ footer a:hover{color:#fff}
 .tip b{color:var(--red-dark)}
 @media(max-width:900px){.detail .grid{grid-template-columns:1fr;gap:32px}.detail-media{position:static}}
 
-/* FAQ — accordion */
-.faq .block-head{margin-bottom:48px}
-.faq-list{max-width:840px;margin:0 auto}
-.faq-item{border-bottom:1px solid var(--line)}
-.faq-item:first-child{border-top:1px solid var(--line)}
-.faq-q{margin:0}
-.faq-toggle{width:100%;background:none;border:none;cursor:pointer;font-family:var(--serif);font-size:23px;font-weight:500;letter-spacing:-.01em;color:var(--ink);text-align:left;padding:28px 2px;display:flex;gap:12px;align-items:center;transition:color .2s}
-.faq-toggle:hover{color:var(--red)}
-.faq-toggle .q{color:var(--red);font-weight:600;font-size:18px;flex:none}
-.faq-icon{margin-left:auto;flex:none;position:relative;width:20px;height:20px}
-.faq-icon::before,.faq-icon::after{content:"";position:absolute;top:50%;left:50%;background:var(--red);border-radius:2px;transform:translate(-50%,-50%)}
-.faq-icon::before{width:16px;height:2px}
-.faq-icon::after{width:2px;height:16px;transition:transform .35s ease}
-.faq-item.open .faq-icon::after{transform:translate(-50%,-50%) scaleY(0)}
-.faq-a-wrap{display:grid;grid-template-rows:0fr;opacity:0;transition:grid-template-rows .35s ease,opacity .3s ease}
-.faq-item.open .faq-a-wrap{grid-template-rows:1fr;opacity:1}
-.faq-a{overflow:hidden;min-height:0}
-.faq-a p{color:var(--ink-soft);font-size:16px;max-width:72ch;padding:0 2px 30px}
-.faq-a p .a{color:var(--red);font-weight:600;font-family:var(--serif);margin-right:4px}
+/* FAQ — 2-column card grid (faq.html) */
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1040px;margin:0 auto}
+.faq-card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:38px 36px;transition:.2s}
+.faq-card:hover{box-shadow:0 16px 40px rgba(90,60,30,.09);transform:translateY(-2px)}
+.faq-card.full{grid-column:1 / -1}
+.faq-card h3{font-family:var(--serif);font-size:22px;font-weight:500;letter-spacing:-.01em;margin-bottom:14px;line-height:1.25}
+.faq-card h3 .q{color:var(--red);font-weight:600;font-size:17px;margin-right:8px}
+.faq-card p{color:var(--ink-soft);font-size:16px;line-height:1.6}
+.faq-card p .a{color:var(--red);font-weight:600;font-family:var(--serif);margin-right:4px}
+@media(max-width:760px){.faq-grid{grid-template-columns:1fr}.faq-card.full{grid-column:auto}}
 
 /* PAGE HERO (inner pages) */
 .pagehero{background:var(--cream);padding:80px 0 64px;text-align:center;border-bottom:1px solid var(--line)}
