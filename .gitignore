@@ -1,4 +1,18 @@
-# 사이트에서 사용하지 않는 원본 소스 이미지 (레시피 원본)
-찜기 사진.png
-에어프라이기 사진.webp
-프라이팬 사진.webp
+# Source materials — kept locally only, not deployed
+/*.pdf
+/*.hwpx
+/*.xlsx
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/*.db
+/*.ini
+Thumbs.db
+desktop.ini
+
+# original photo / detail-page source folders
+만두,우동 상세페이지/
+
+# web images live in assets/ and ARE committed
+!assets/
