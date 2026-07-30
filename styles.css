@@ -74,6 +74,17 @@ video.hero-bg{animation:none}
 .hero h1 em{font-style:italic;color:#fff}
 .hero p{font-size:clamp(15px,1.5vw,19px);max-width:560px;margin:0 auto 34px;opacity:.94;font-weight:300;text-shadow:0 2px 22px rgba(0,0,0,.5)}
 .hero .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+/* light hero variant (no video) */
+.hero.hero-light{height:auto;min-height:0;padding:96px 0 96px;background:linear-gradient(180deg,#ffffff 0%,#F6F4F0 100%)}
+.hero.hero-light:after{display:none}
+.hero.hero-light .hero-inner{color:var(--ink)}
+.hero.hero-light .hero-logo{height:74px;width:auto;display:block;margin:0 auto 26px}
+.hero.hero-light .eyebrow{color:var(--red);opacity:1}
+.hero.hero-light h1{color:var(--ink);text-shadow:none}
+.hero.hero-light h1 em{color:var(--red)}
+.hero.hero-light p{color:var(--ink-soft);text-shadow:none;font-weight:400}
+.hero.hero-light .btn.ghost{color:var(--ink);border-color:var(--line)}
+.hero.hero-light .btn.ghost:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
 .video-note{position:absolute;bottom:16px;left:0;right:0;z-index:3;text-align:center;color:rgba(255,255,255,.55);font-size:11px;letter-spacing:.08em}
 
 /* MARQUEE TEXT */
