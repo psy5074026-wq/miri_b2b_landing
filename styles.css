@@ -40,13 +40,13 @@ header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);backdro
 .logo small{display:block;font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
 /* image logo */
 .logo{display:inline-flex;align-items:center}
-.logo img{height:56px;width:auto;display:block}
+.logo img{height:38px;width:auto;display:block}
 .logo .logo-light{display:none}
 header.over .logo .logo-dark{display:none}
 header.over .logo .logo-light{display:block}
 footer .logo .logo-dark{display:none}
 footer .logo .logo-light{display:block}
-footer .logo img{height:60px}
+footer .logo img{height:42px}
 .nav ul{display:flex;gap:34px;list-style:none;font-weight:500;font-size:14px;letter-spacing:.01em}
 .nav ul a{padding:6px 0;transition:.2s}
 .nav ul a:hover{color:var(--red)}
