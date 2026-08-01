@@ -389,3 +389,7 @@ footer a:hover{color:var(--red)}
 .buyer-list li{position:relative;padding-left:18px;font-size:15px;line-height:1.7;color:var(--ink-soft)}
 .buyer-list li:before{content:"";position:absolute;left:0;top:11px;width:6px;height:6px;border-radius:50%;background:var(--red)}
 .buyer-list b{color:var(--ink);font-weight:600}
+
+/* Contact — privacy notice under the inquiry form */
+.privacy-note{margin-top:22px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;line-height:1.75;color:var(--ink-soft)}
+.privacy-note b{color:var(--ink);font-weight:600}
