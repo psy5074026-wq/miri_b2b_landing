@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
 
 :root{
-  --red:#B5202A;          /* refined Korean red */
-  --red-dark:#8E1620;
+  /* brand accent — exact leaf green from the Sol Food logo */
+  --red:#8DC63F;          /* Sol Food logo leaf — exact */
+  --red-dark:#7AB332;     /* hover state */
+  --leaf:#8DC63F;
   --gold:#C9A24B;
   --bg:#ffffff;           /* white */
   --cream:#F5F5F5;        /* neutral near-white for subtle fills */

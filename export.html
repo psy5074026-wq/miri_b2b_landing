@@ -14,16 +14,16 @@
 .map-wrap{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 12px;box-shadow:0 20px 50px rgba(90,60,30,.08)}
 #miri-map{width:100%;height:auto;display:block}
 #miri-map path{fill:#E6E6E8;stroke:#fff;stroke-width:.4;transition:fill .18s}
-#miri-map path.export2,#miri-map g.export2 path{fill:#EAD5A3}
-#miri-map path.active,#miri-map g.active path{fill:var(--gold);cursor:pointer}
-#miri-map path.active:hover,#miri-map g.active:hover path{fill:#a8842f}
-#miri-map path.selected,#miri-map g.selected path{fill:#B5202A !important}
+#miri-map path.export2,#miri-map g.export2 path{fill:#CFE7A6}
+#miri-map path.active,#miri-map g.active path{fill:var(--leaf);cursor:pointer}
+#miri-map path.active:hover,#miri-map g.active:hover path{fill:#7AB332}
+#miri-map path.selected,#miri-map g.selected path{fill:#5A8F1E !important}
 #miri-map g.active{cursor:pointer}
 .map-legend{margin-top:12px;font-size:12.5px;color:var(--ink);opacity:.75;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .map-legend span.k{display:inline-flex;align-items:center;gap:7px}
 .map-legend .dot{width:13px;height:13px;border-radius:3px;display:inline-block}
-.map-legend .dot.g{background:var(--gold)}
-.map-legend .dot.l{background:#EAD5A3}
+.map-legend .dot.g{background:var(--leaf)}
+.map-legend .dot.l{background:#CFE7A6}
 .map-panel{position:sticky;top:100px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px;min-height:340px;box-shadow:0 20px 50px rgba(90,60,30,.08)}
 .mp-empty{text-align:center;padding:26px 6px;color:var(--ink)}
 .mp-globe{font-size:52px;line-height:1;margin-bottom:14px}
@@ -485,7 +485,7 @@
         <div class="mp-empty">
           <div class="mp-globe">🌏</div>
           <h3>Select a market</h3>
-          <p>Click any gold country on the map to see the miri products we export there, HS codes, and shipping mode.</p>
+          <p>Click any highlighted country on the map to see the miri products we export there, HS codes, and shipping mode.</p>
         </div>
       </aside>
     </div>
@@ -584,7 +584,7 @@ Object.keys(DATA).forEach(function(code){
   el.style.cursor='pointer';
   el.addEventListener('click',function(){
     if(selected){selected.classList.remove('selected');paint(selected,'');}
-    el.classList.add('selected');paint(el,'#B5202A');selected=el;
+    el.classList.add('selected');paint(el,'#5A8F1E');selected=el;
     render(code);
     if(window.innerWidth<820)panel.scrollIntoView({behavior:'smooth',block:'center'});
   });
@@ -606,7 +606,7 @@ Object.keys(DATA2).forEach(function(code){
   el.style.cursor='pointer';
   el.addEventListener('click',function(){
     if(selected){selected.classList.remove('selected');paint(selected,'');}
-    el.classList.add('selected');paint(el,'#B5202A');selected=el;
+    el.classList.add('selected');paint(el,'#5A8F1E');selected=el;
     render2(code);
     if(window.innerWidth<820)panel.scrollIntoView({behavior:'smooth',block:'center'});
   });
