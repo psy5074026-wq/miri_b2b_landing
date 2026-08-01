@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "miri-b2b-landing.vercel.app" }],
+      "destination": "https://miri-foods.com/$1",
+      "permanent": true
+    }
+  ]
+}

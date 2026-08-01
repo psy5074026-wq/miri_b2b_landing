@@ -3,22 +3,22 @@
 > miri is the food-specialty brand of Sol Food Co., Ltd., a Korean dumpling (mandu) and udon manufacturer since 1987. Crispy, not mushy, and ready from freezer to table in minutes — a crowd-pleasing appetizer for parties, game day, and everyday meals. HACCP and ISO 9001/22000/45001/14001 certified (HALAL certification applies to the udon line). Now partnering with U.S. importers, distributors, retailers, wholesalers and foodservice operators. Private-label & OEM available.
 
 ## Products
-- [Vegetable Dumpling](https://miri-b2b-landing.vercel.app/vegetable-dumpling.html): Plant-based Korean mandu made with tofu and vegetables. 560g. Best seller.
-- [Kimchi Mandu](https://miri-b2b-landing.vercel.app/product-kimchi.html)
-- [Pork Mandu](https://miri-b2b-landing.vercel.app/product-pork.html)
-- [Spicy Chili Mandu](https://miri-b2b-landing.vercel.app/product-spicy.html)
-- [Shrimp Mandu](https://miri-b2b-landing.vercel.app/product-shrimp.html)
-- [Crispy Glass Noodle Mandu](https://miri-b2b-landing.vercel.app/product-glass-noodle.html)
-- [Springy Udon Noodle](https://miri-b2b-landing.vercel.app/product-udon.html)
-- [All Products](https://miri-b2b-landing.vercel.app/products.html)
+- [Vegetable Dumpling](https://miri-foods.com/vegetable-dumpling.html): Plant-based Korean mandu made with tofu and vegetables. 560g. Best seller.
+- [Kimchi Mandu](https://miri-foods.com/product-kimchi.html)
+- [Pork Mandu](https://miri-foods.com/product-pork.html)
+- [Spicy Chili Mandu](https://miri-foods.com/product-spicy.html)
+- [Shrimp Mandu](https://miri-foods.com/product-shrimp.html)
+- [Crispy Glass Noodle Mandu](https://miri-foods.com/product-glass-noodle.html)
+- [Springy Udon Noodle](https://miri-foods.com/product-udon.html)
+- [All Products](https://miri-foods.com/products.html)
 
 ## Recipes
-- [How to Cook Frozen Dumplings (hub: steam, pan-fry, air fry, dipping sauce, bamboo steamer guide)](https://miri-b2b-landing.vercel.app/recipes.html)
-- [Crispy Golden Pan Fry](https://miri-b2b-landing.vercel.app/recipe-pan-fry.html) (8–9 min, most popular)
-- [Healthy Steam](https://miri-b2b-landing.vercel.app/recipe-steam.html) (7–9 min)
-- [Easy Peasy Air Fry](https://miri-b2b-landing.vercel.app/recipe-air-fry.html) (12–15 min)
+- [How to Cook Frozen Dumplings (hub: steam, pan-fry, air fry, dipping sauce, bamboo steamer guide)](https://miri-foods.com/recipes.html)
+- [Crispy Golden Pan Fry](https://miri-foods.com/recipe-pan-fry.html) (8–9 min, most popular)
+- [Healthy Steam](https://miri-foods.com/recipe-steam.html) (7–9 min)
+- [Easy Peasy Air Fry](https://miri-foods.com/recipe-air-fry.html) (12–15 min)
 
 ## Company
-- [About Sol Food](https://miri-b2b-landing.vercel.app/about.html): Dumpling specialist since 1987, HACCP/HALAL/ISO certified.
-- [Our Factory](https://miri-b2b-landing.vercel.app/factory.html): 8-step process, metal & X-ray detection, certified facility in Okcheon, Korea.
-- [Contact / Wholesale](https://miri-b2b-landing.vercel.app/contact.html): For buyers, distributors and OEM inquiries.
+- [About Sol Food](https://miri-foods.com/about.html): Dumpling specialist since 1987, HACCP/HALAL/ISO certified.
+- [Our Factory](https://miri-foods.com/factory.html): 8-step process, metal & X-ray detection, certified facility in Okcheon, Korea.
+- [Contact / Wholesale](https://miri-foods.com/contact.html): For buyers, distributors and OEM inquiries.
