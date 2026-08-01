@@ -119,6 +119,15 @@ video.hero-bg{animation:none}
 .about{background:#fff}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
 .split-img{aspect-ratio:4/5;overflow:hidden;border-radius:var(--radius);box-shadow:0 40px 80px rgba(90,60,30,.18)}
+/* Signature recipe: big photo on top, method below */
+.recipe-block{margin-bottom:96px}
+.recipe-block:last-of-type{margin-bottom:0}
+.recipe-hero img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:16px;box-shadow:0 24px 60px rgba(90,60,30,.16)}
+.recipe-copy{max-width:760px;margin:38px auto 0}
+.recipe-copy .eyebrow{margin-bottom:6px}
+.recipe-copy h3{font-size:32px;letter-spacing:-.02em;margin:0 0 14px}
+.recipe-copy .lead-sm{font-size:17px;line-height:1.65;color:var(--ink-soft);margin-bottom:26px}
+@media(max-width:760px){.recipe-block{margin-bottom:64px}.recipe-copy h3{font-size:25px}.recipe-copy{margin-top:26px}}
 .feather-photo{width:100%}
 .feather-photo img{width:100%;height:auto;display:block;border-radius:14px;
   -webkit-mask-image:linear-gradient(to right,transparent 0,#000 7%,#000 93%,transparent 100%),linear-gradient(to bottom,transparent 0,#000 7%,#000 93%,transparent 100%);
