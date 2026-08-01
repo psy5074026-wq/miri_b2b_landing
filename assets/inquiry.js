@@ -2,7 +2,7 @@
    Posts to a Google Apps Script web app that appends a row to the
    inquiry spreadsheet. Replace ENDPOINT with the /exec URL after deploying. */
 (function () {
-  var ENDPOINT = 'PASTE_APPS_SCRIPT_EXEC_URL_HERE';
+  var ENDPOINT = 'https://script.google.com/macros/s/AKfycbxY174SJRagMCefUjTURhGBU0HzBra2jCOecaeJsFAuDqAAerpAf6ZSMsBdhv9wpI-7EQ/exec';
 
   var form = document.querySelector('form.inquiry-form');
   if (!form) return;
