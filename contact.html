@@ -95,11 +95,7 @@
 
     <!-- RIGHT: inquiry form -->
     <div>
-      <form class="inquiry-form" action="https://formsubmit.co/pnj9780@naver.com" method="POST">
-        <input type="hidden" name="_subject" value="MIRI — New B2B inquiry from website" />
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_template" value="table" />
-
+      <form class="inquiry-form" novalidate>
         <input type="text" name="name" placeholder="Your name *" required />
         <input type="text" name="company" placeholder="Company *" required />
         <input type="email" name="email" placeholder="Email *" required />
@@ -153,6 +149,7 @@
 
 <script src="https://cdn.amplitude.com/script/bb0845f1d2d541d12f5f6be89d708147.js"></script>
 <script>window.amplitude.init('bb0845f1d2d541d12f5f6be89d708147',{autocapture:true,defaultTracking:true});</script>
+<script src="assets/inquiry.js" defer></script>
 <script src="assets/analytics.js" defer></script>
 </body>
 </html>

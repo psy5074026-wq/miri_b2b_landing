@@ -106,13 +106,14 @@
     track('B2B Question Answered', props);
   });
 
-  form.addEventListener('submit', function (e) {
+  // inquiry.js owns the submit: it posts by fetch and the page never navigates,
+  // so there is nothing to hold the event open for here.
+  form.addEventListener('submit', function () {
     if (form.dataset.ampSent) return;
-    e.preventDefault();
     form.dataset.ampSent = '1';
 
     var g = function (n) { var f = form.elements[n]; return f ? (f.value || '').trim() : ''; };
-    var res = track('B2B Inquiry Submitted', {
+    track('B2B Inquiry Submitted', {
       buyer_type: g('buyer_type') || 'not_specified',
       product: g('product') || 'not_specified',
       country: g('country') || 'not_specified',
@@ -120,12 +121,8 @@
       message_length: g('message').length,
       referrer_type: referrerType()
     });
-
-    // Let the event land before the page navigates to the form handler.
-    var go = function () { form.submit(); };
-    var done = false;
-    var fire = function () { if (!done) { done = true; go(); } };
-    if (res && res.promise) res.promise.then(fire, fire);
-    setTimeout(fire, 1200);
   });
+
+  // A buyer may correct an error and submit again; let that count too.
+  form.addEventListener('reset', function () { delete form.dataset.ampSent; });
 })();
