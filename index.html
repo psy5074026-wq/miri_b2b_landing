@@ -16,6 +16,7 @@
 <meta property="og:site_name" content="miri by Sol Food" />
 <meta property="og:description" content="miri Vegetable Dumplings by Sol Food Co., Ltd. — a Korean dumpling specialist since 1987. HACCP certified. For U.S. importers, distributors, retailers & foodservice partners." />
 <meta name="twitter:card" content="summary_large_image" />
+<link rel="preload" as="image" href="assets/hero-1.jpg" />
 <link rel="stylesheet" href="styles.css" />
 <script type="application/ld+json">
 {
@@ -64,7 +65,11 @@
 </header>
 
 <!-- HERO -->
-<section class="hero hero-light">
+<section class="hero hero-slides">
+  <div class="hero-bgs" aria-hidden="true">
+    <div class="hero-slide is-on" style="background-image:url('assets/hero-1.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('assets/hero-3.jpg')"></div>
+  </div>
   <div class="hero-inner">
     <img class="hero-logo" src="assets/miri-logo.png" alt="miri" />
     <div class="eyebrow">Crispy, Not Mushy · Ready in Minutes</div>
@@ -188,5 +193,18 @@
 <script src="https://cdn.amplitude.com/script/bb0845f1d2d541d12f5f6be89d708147.js"></script>
 <script>window.amplitude.init('bb0845f1d2d541d12f5f6be89d708147',{autocapture:true,defaultTracking:true});</script>
 <script src="assets/analytics.js" defer></script>
+<script>
+(function(){
+  var slides=document.querySelectorAll('.hero-slide');
+  if(slides.length<2) return;
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var i=0;
+  setInterval(function(){
+    slides[i].classList.remove('is-on');
+    i=(i+1)%slides.length;
+    slides[i].classList.add('is-on');
+  },5000);
+})();
+</script>
 </body>
 </html>

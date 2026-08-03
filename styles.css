@@ -393,3 +393,23 @@ footer a:hover{color:var(--red)}
 /* Contact — privacy notice under the inquiry form */
 .privacy-note{margin-top:22px;padding-top:20px;border-top:1px solid var(--line);font-size:12.5px;line-height:1.75;color:var(--ink-soft)}
 .privacy-note b{color:var(--ink);font-weight:600}
+
+/* HERO — cross-fading photo background (home) */
+.hero.hero-slides{position:relative;height:auto;min-height:0;padding:120px 0 124px;overflow:hidden;background:#1A1512}
+.hero.hero-slides:after{content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(180deg,rgba(20,15,10,.62),rgba(20,15,10,.48) 45%,rgba(20,15,10,.72))}
+.hero-bgs{position:absolute;inset:0;z-index:0}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;
+  opacity:0;transition:opacity 1.6s ease-in-out;will-change:opacity}
+.hero-slide.is-on{opacity:1}
+.hero.hero-slides .hero-inner{position:relative;z-index:2;color:#fff}
+.hero.hero-slides .hero-logo{height:74px;width:auto;display:block;margin:0 auto 26px;
+  filter:drop-shadow(0 2px 14px rgba(0,0,0,.45))}
+.hero.hero-slides .eyebrow{color:#fff;opacity:.95}
+.hero.hero-slides h1{color:#fff;text-shadow:0 4px 40px rgba(0,0,0,.5)}
+.hero.hero-slides h1 em{color:#fff}
+.hero.hero-slides p{color:rgba(255,255,255,.94);text-shadow:0 2px 20px rgba(0,0,0,.55);font-weight:300}
+.hero.hero-slides .btn.ghost{color:#fff;border-color:rgba(255,255,255,.6)}
+.hero.hero-slides .btn.ghost:hover{background:#fff;color:var(--ink);border-color:#fff}
+@media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
+@media(max-width:700px){.hero.hero-slides{padding:88px 0 92px}.hero.hero-slides .hero-logo{height:56px}}
