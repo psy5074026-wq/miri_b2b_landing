@@ -413,3 +413,19 @@ footer a:hover{color:var(--red)}
 .hero.hero-slides .btn.ghost:hover{background:#fff;color:var(--ink);border-color:#fff}
 @media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
 @media(max-width:700px){.hero.hero-slides{padding:88px 0 92px}.hero.hero-slides .hero-logo{height:56px}}
+
+/* Contact — catalog download + new-product pointer */
+.dl-row{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:980px;margin:0 auto;align-items:stretch}
+.dl-card,.dl-note{display:flex;gap:20px;align-items:center;background:#fff;border:1px solid var(--line);
+  border-radius:10px;padding:26px 28px;transition:.22s}
+.dl-card:hover,.dl-note:hover{border-color:var(--red);box-shadow:0 14px 34px rgba(90,60,30,.10);transform:translateY(-2px)}
+.dl-ico{flex:0 0 auto;width:52px;height:52px;border-radius:8px;background:var(--red);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;letter-spacing:.05em}
+.dl-body{flex:1}
+.dl-card h4,.dl-note b{display:block;font-size:16px;font-weight:700;color:var(--ink);margin-bottom:5px}
+.dl-card p,.dl-note p{font-size:13.5px;line-height:1.65;color:var(--ink-soft);margin:0}
+.dl-go{font-size:13px;font-weight:600;color:var(--red);white-space:nowrap}
+.dl-note{align-items:flex-start}
+.dl-note img{flex:0 0 auto;width:88px;height:88px;object-fit:cover;border-radius:8px}
+.dl-note .dl-go{display:inline-block;margin-top:10px}
+@media(max-width:820px){.dl-row{grid-template-columns:1fr}.dl-card{flex-wrap:wrap}}
