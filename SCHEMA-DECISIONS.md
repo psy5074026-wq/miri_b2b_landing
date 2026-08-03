@@ -1,48 +1,53 @@
 # 구조화 데이터 — 확정된 결정 사항
 
-## 1. Product 스키마에 `offers` 를 넣지 않는다 (확정)
+## 1. Product 스키마에 `offers` 를 넣는다 (2026-08-03 재확정)
 
-**결정일** 2026-08-03
 **적용 범위** SKU 14개 전부
+
+> **경위** — 8/3 오전에는 `offers` 를 넣지 않기로 확정했으나, Search Console
+> 에서 "수정 결과 확인"이 계속 실패하는 것을 확인한 뒤 같은 날 결정을 뒤집었다.
+> 아래가 최종이다.
 
 ### 현재 상태
 
-각 SKU 페이지의 Product 스키마는 아래 필드로 구성된다. `offers`, `review`,
-`aggregateRating` 은 **의도적으로 넣지 않는다.**
-
+```json
+"offers": {
+  "@type": "Offer",
+  "url": "https://miri-foods.com/contact.html",
+  "priceCurrency": "USD",
+  "price": "0",
+  "availability": "https://schema.org/InStock",
+  "businessFunction": "https://schema.org/Sell",
+  "seller": { "@type": "Organization", "name": "Sol Food Co., Ltd." }
+}
 ```
-@type · name · description · brand · category · image · url · sku · nutrition
-```
 
-별도 블록으로 `BreadcrumbList` 를 함께 제공한다.
+### `price: "0"` 의 의미
 
-### 예상되는 Search Console 경고 — 조치 불필요
+**무료 제공이 아니다.** B2B 도매라 고정 소비자가가 없는 상태에서 구글의 Product
+필수 요건(`offers` / `review` / `aggregateRating` 중 하나)을 충족시키기 위한
+기술적 표기다. `url` 은 실제 견적 문의로 이어지는 `/contact.html` 을 가리켜
+이 필드가 실질적으로도 동작하게 했다.
 
-`색인 생성 → 상품 스니펫` 리포트에 아래 오류가 **계속 표시된다.**
+### 남은 위험 — 모니터링 필요
 
-> 'offers', 'review' 또는 'aggregateRating'을(를) 지정해야 합니다
+리치결과에 **`$0.00` 으로 노출될 가능성**이 있다. 실제로 그렇게 표시되면
+아래 중 하나로 전환한다.
 
-이는 고쳐야 할 결함이 아니라 **의도된 상태**다. 다음 담당자가 이 경고를 보고
-다시 `offers` 를 넣지 않도록 주의할 것.
-
-| 항목 | 영향 |
+| 대안 | 효과 |
 |---|---|
-| 색인 | 영향 없음 |
-| 검색 노출·순위 | 영향 없음 |
-| 상품 리치결과(가격·재고 표시) | 대상에서 제외됨 — 수용함 |
-| Search Console 오류 건수 | 1건 상시 표시 — 수용함 |
+| `priceSpecification` 에 `minPrice` 를 넣어 "부터" 형태로 | 0원 표기 회피 |
+| `@type` 을 `ItemPage` 등으로 변경 | Product 리치결과 자체를 포기 |
+
+확인 방법: `site:miri-foods.com` 검색 결과에 가격이 붙는지, 또는
+Rich Results Test 미리보기.
 
 ### 검토했으나 채택하지 않은 대안
 
-| 대안 | 오류 해소 | 채택하지 않은 이유 |
-|---|---|---|
-| `offers` + `price: "0"` | 해소 | B2B 도매라 소비자가가 없는데 0원으로 표기하게 되고, 리치결과에 `$0.00` 로 노출될 위험 |
-| `@type` 을 `Product` → `ItemPage` 등으로 변경 | 해소 | 팀 결정으로 미채택 |
-
-### 2주 검증 시 유의
-
-Search Console 오류 건수를 지표로 볼 경우, 이 1건은 **기준선에서 제외**하고
-집계할 것. 새로 발생한 오류와 구분되어야 한다.
+| 대안 | 채택하지 않은 이유 |
+|---|---|
+| `offers` 없이 두기 | Search Console 오류가 영구히 남고 "수정 결과 확인"이 계속 실패 |
+| `@type` → `ItemPage` | 팀 결정으로 미채택 |
 
 ---
 
