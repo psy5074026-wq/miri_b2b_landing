@@ -133,22 +133,54 @@
 
 ## 키워드 손실 여부
 
-C에서 정확한 키워드 문구가 빠진 것은 사실이다. 다만 검색엔진은 정확 일치가 아니라 의미로 판단한다.
+**손실 없음.** 배치표 142개 중 현재 상태는 이렇다.
 
-| 빠진 키워드 | 현재 본문에서 대응하는 표현 |
+| 구분 | 개수 |
 |---|---|
-| snacks for superbowl party | Super Bowl Sunday |
-| appetizers for tailgate party | tailgates |
-| appetizers for football party | Football weekends |
-| appetizers for fall party | autumn gatherings |
-| party appetizers for new years eve | New Year's Eve |
-| birthday party appetizers | birthdays |
-| appetizers for cocktail party | cocktail spreads |
-| appetizers for dinner party | dinner parties |
+| 본문에 **원문 그대로**(정확 일치) 존재 | **111** |
+| 계획대로 백엔드에만 | 27 |
+| 없음 — 할랄 관련 4개 (지시에 따라 전량 제거) | 4 |
 
-동일 문맥에 같은 개념이 있으므로 해당 검색어에 노출될 수 있다. 반대로 B 상태를 유지했을 때의 위험은 **Google 스팸 정책상 키워드 스터핑 판정**이며, 이 경우 해당 페이지 전체가 평가절하된다.
+동의어로 바꾸거나 축약한 키워드는 없다. 검색어 문구는 그대로 두고, **한 문단에 몰려 있던 것을 여러 문단·질문으로 분산**했다.
 
----
+실제 확인:
+
+| 키워드 | 현재 위치 |
+|---|---|
+| snacks for superbowl party | products.html — "buyers stocking for **snacks for superbowl party** and game day snacks football…" |
+| appetizers for tailgate party | products.html — "buyers stocking for **appetizers for tailgate party** and appetizers for football party…" |
+| party appetizers for new years eve | products.html — "the run from appetizers for fall party season into **party appetizers for new years eve**" |
+| appetizers for christmas party recipes | recipes.html — "Among **appetizers for christmas party recipes** it is unusually low-effort…" |
+| snacks for party ideas | recipes.html — FAQ 질문 "I need **snacks for party ideas** that take minutes, not hours." |
+| can i air fry frozen dumplings | recipe-air-fry.html — 리드 첫 문장 "**Can I air fry frozen dumplings?** Yes —" |
+| where to buy dumplings | index.html — "If you are working out **where to buy dumplings** in your area…" |
+| frozen food manufacturers near me | factory.html — "buyers searching **frozen food manufacturers near me** in the U.S.…" |
+
+### 의도적으로 제외한 7개
+
+검색량이 **전부 0**인 브랜드 조합어다.
+
+```
+where to buy MIRI dumplings
+Sol Food frozen dumpling manufacturer
+MIRI plant based dumplings wholesale
+Sol Food private label dumpling manufacturer
+Sol Food frozen food manufacturer USA
+MIRI asian food wholesale distributor
+MIRI vegetable potstickers wholesale
+```
+
+이들을 넣으려면 한 문장에 `MIRI ~ wholesale` 을 세 개 연달아 붙여야 하며, 그것이 감사에서 지적된 형태다. 검색량 0을 얻자고 페이지 전체가 평가절하될 위험을 지는 것은 손해다. 브랜드명 검색에서는 어차피 상위에 노출된다.
+
+### 스터핑을 피한 방법
+
+문구를 바꾼 것이 아니라 **담는 그릇을 바꿨다**.
+
+| 방법 | 적용 |
+|---|---|
+| 질문 문장에 담기 | 검색어가 곧 질문이 되므로 자연스럽다. recipes.html Cooking FAQ 4문항, products.html Merchandising notes 3블록 |
+| 문단 분산 | 한 문단에 2개를 넘지 않게 배치 |
+| 페이지 분산 | 같은 클러스터를 products / recipes 두 페이지로 나눔 |
 
 ## 판단 참고
 
