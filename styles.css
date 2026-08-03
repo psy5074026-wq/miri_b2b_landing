@@ -429,3 +429,8 @@ footer a:hover{color:var(--red)}
 .dl-note img{flex:0 0 auto;width:88px;height:88px;object-fit:cover;border-radius:8px}
 .dl-note .dl-go{display:inline-block;margin-top:10px}
 @media(max-width:820px){.dl-row{grid-template-columns:1fr}.dl-card{flex-wrap:wrap}}
+
+/* Export — crawlable summary of the map data */
+.export-summary{max-width:900px;margin:64px auto 0;padding-top:44px;border-top:1px solid var(--line)}
+.export-table td,.export-table th{font-size:14px;line-height:1.7;vertical-align:top}
+.export-table th{white-space:nowrap}
