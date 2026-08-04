@@ -29,11 +29,11 @@
     try {
       var h = new URL(r).hostname.replace(/^www\./, '');
       if (h === location.hostname) return 'internal';
+      if (/chatgpt|openai|perplexity|claude\.ai|copilot|gemini\.google|bard\.google|you\.com|phind|grok\.com|x\.ai|poe\.com|mistral|deepseek|kagi/.test(h)) return 'ai_assistant';
       if (/google\./.test(h)) return 'organic:google';
       if (/bing\./.test(h)) return 'organic:bing';
       if (/duckduckgo|yahoo|naver|daum/.test(h)) return 'organic:other';
       if (/facebook|instagram|linkedin|t\.co|twitter/.test(h)) return 'social';
-      if (/chatgpt|openai|perplexity|claude\.ai|copilot/.test(h)) return 'ai_assistant';
       return 'referral:' + h;
     } catch (e) { return 'referral'; }
   }

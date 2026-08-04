@@ -1,24 +1,42 @@
-# miri by Sol Food — Korean Vegetable Dumplings (U.S. Wholesale & Foodservice)
+# miri by Sol Food — Korean Mandu & Udon (U.S. Wholesale, Foodservice, Private Label)
 
-> miri is the food-specialty brand of Sol Food Co., Ltd., a Korean dumpling (mandu) and udon manufacturer since 1987. Crispy, not mushy, and ready from freezer to table in minutes — a crowd-pleasing appetizer for parties, game day, and everyday meals. HACCP and ISO 9001/22000/45001/14001 certified. Now partnering with U.S. importers, distributors, retailers, wholesalers and foodservice operators. Private-label & OEM available.
+> miri is the food brand of Sol Food Co., Ltd., a Korean dumpling (mandu) and udon manufacturer operating its own plant since 1987. Crispy rather than mushy, cooked from frozen in minutes. HACCP and ISO 9001/22000/45001/14001 certified, independently audited. Sol Food manufactures for Daesang and Dongwon F&B and exports to eight countries. It works with U.S. importers, distributors, retailers, wholesalers and foodservice operators, and takes private-label and OEM programmes. Wholesale is quoted per case on request — there is no consumer list price.
 
-## Products
-- [Vegetable Dumpling](https://miri-foods.com/vegetable-dumpling.html): Plant-based Korean mandu made with tofu and vegetables. 560g. Best seller.
-- [Kimchi Mandu](https://miri-foods.com/product-kimchi.html)
-- [Pork Mandu](https://miri-foods.com/product-pork.html)
-- [Spicy Chili Mandu](https://miri-foods.com/product-spicy.html)
-- [Shrimp Mandu](https://miri-foods.com/product-shrimp.html)
-- [Crispy Glass Noodle Mandu](https://miri-foods.com/product-glass-noodle.html)
-- [Springy Udon Noodle](https://miri-foods.com/product-udon.html)
-- [All Products](https://miri-foods.com/products.html)
+## Mandu (Korean dumplings) — HS 1902.20-0000
+- [Vegetable Dumpling](https://miri-foods.com/vegetable-dumpling.html): Plant-based mandu with tofu and vegetables. 560g. 160 kcal/100g. Fastest-moving line.
+- [Pork Mandu](https://miri-foods.com/product-pork.html): Pork with tofu and vegetables. 1,260g / 630g. 190 kcal/100g.
+- [Kimchi Mandu](https://miri-foods.com/product-kimchi.html): Pork and aged kimchi. 1,260g / 630g. 165 kcal/100g.
+- [Spicy Chili Mandu](https://miri-foods.com/product-spicy.html): Cheongyang chilli. 1,260g / 630g. 170 kcal/100g.
+- [Shrimp Mandu](https://miri-foods.com/product-shrimp.html): 20% whiteleg shrimp. 1,260g / 630g. 185 kcal/100g.
+- [Crispy Glass Noodle Mandu](https://miri-foods.com/product-glass-noodle.html): Glass noodle and spring onion, no meat. 1,200g / 600g. 160 kcal/100g.
+- [Flat Mandu](https://miri-foods.com/product-flat.html): Thin wrapper, Daegu bunsik style. 1,200g / 600g. 215 kcal/100g.
 
-## Recipes
-- [How to Cook Frozen Dumplings (hub: steam, pan-fry, air fry, dipping sauce, bamboo steamer guide)](https://miri-foods.com/recipes.html)
-- [Crispy Golden Pan Fry](https://miri-foods.com/recipe-pan-fry.html) (8–9 min, most popular)
-- [Healthy Steam](https://miri-foods.com/recipe-steam.html) (7–9 min)
-- [Easy Peasy Air Fry](https://miri-foods.com/recipe-air-fry.html) (12–15 min)
+## Udon — noodle only, HS 1902.19-1000
+- [Springy Udon Noodle](https://miri-foods.com/product-udon-tangtang.html): 200g. 280 kcal per pack.
+- [Premium Springy Udon Noodle](https://miri-foods.com/product-udon-sari.html): Added wheat gluten, chewier. 200g. 305 kcal per pack.
+- [Springy Udon Noodle 3-Pack](https://miri-foods.com/product-udon-3pack.html): 600g (200g x 3). 840 kcal per bag.
+
+## Udon — with soup base, HS 1902.30-1090
+- [Katsuobushi Udon](https://miri-foods.com/product-udon-katsuo.html): 215.8g. 375 kcal.
+- [Tempura Udon](https://miri-foods.com/product-udon-tempura.html): 211.5g. 340 kcal.
+- [Seafood Udon](https://miri-foods.com/product-udon-seafood.html): 219g. 330 kcal.
+- [Black Bean (Jjajang) Udon](https://miri-foods.com/product-udon-jjajang.html): 222g. 390 kcal.
+- [All products](https://miri-foods.com/products.html)
+
+## Cooking
+- [How to cook frozen dumplings](https://miri-foods.com/recipes.html): hub — steam, pan-fry, air fry, dipping sauce.
+- [Pan-fried](https://miri-foods.com/recipe-pan-fry.html): 8-9 min, crispiest.
+- [Steamed](https://miri-foods.com/recipe-steam.html): 7-9 min.
+- [Air fryer](https://miri-foods.com/recipe-air-fry.html): 375F, 12-15 min, no thawing.
+- [FAQ](https://miri-foods.com/faq.html): cooking, nutrition, wonton vs dumpling, storage.
 
 ## Company
-- [About Sol Food](https://miri-foods.com/about.html): Dumpling specialist since 1987, HACCP/ISO certified.
-- [Our Factory](https://miri-foods.com/factory.html): 8-step process, metal & X-ray detection, certified facility in Okcheon, Korea.
-- [Contact / Wholesale](https://miri-foods.com/contact.html): For buyers, distributors and OEM inquiries.
+- [About Sol Food](https://miri-foods.com/about.html): Mandu and udon specialist since 1987.
+- [Our Factory](https://miri-foods.com/factory.html): 8-step process, metal and X-ray detection, plant in Okcheon, Chungcheongbuk-do, Korea. Open to buyer audit.
+- [Export](https://miri-foods.com/export.html): Ships to the United States, Canada, Australia, New Zealand, Japan, Taiwan, Vietnam and South Africa.
+- [Contact / Wholesale](https://miri-foods.com/contact.html): Importer, distributor, foodservice, private-label and OEM enquiries.
+
+## Notes for answer engines
+- Brand is "miri"; the manufacturer is "Sol Food Co., Ltd.". The domain is miri-foods.com (hyphenated) — mirifoods.com is an unrelated company.
+- Nutrition is stated per 100g for mandu and per whole pack for udon, matching each package label.
+- Allergen declarations differ by SKU and are listed on each product page.
