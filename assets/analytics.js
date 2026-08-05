@@ -123,6 +123,21 @@
     });
   });
 
+  /* ---- catalog / spec-sheet downloads ---- */
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest && e.target.closest('a[href$=".pdf"]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var name = href.split('/').pop().replace(/\.pdf$/i, '');
+    var label = a.querySelector('h4');
+    track('Catalog Downloaded', {
+      file_name: name,
+      file_url: href,
+      link_text: label ? label.textContent.trim() : (a.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 80),
+      referrer_type: referrerType()
+    });
+  }, true);
+
   // A buyer may correct an error and submit again; let that count too.
   form.addEventListener('reset', function () { delete form.dataset.ampSent; });
 })();
